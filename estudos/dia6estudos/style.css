@@ -1,0 +1,54 @@
+/*Agora, podemos deixar a nossa página de cadastro de usuários bonita!*/
+/*Para isso, utilizamos a linguagem em cascata chamada de CSS*/
+
+/* Estilo global */
+body {
+    background-color: rgb(173, 212, 207);
+    text-align: center;
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Container para centralizar tudo */
+.cadastro {
+    background-color: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+/* Campos de input */
+input {
+    display: block;
+    margin: 15px auto;
+    padding: 12px;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Botões */
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+/* Mensagem */
+#mensagem {
+    margin-top: 20px;
+    font-weight: bold;
+}
