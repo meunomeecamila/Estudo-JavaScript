@@ -20,19 +20,19 @@ alert("O nome era: " + nome);
 alert("Agora o nome é: " + nome2);
 
 //exercício 1
-const nome = prompt("Qual seu nome?");
-alert("Olá, " + nome + "! Tudo bem?");
+const nome1 = prompt("Qual seu nome?");
+alert("Olá, " + nome1 + "! Tudo bem?");
 
 //exercício 2
-const nome = prompt("Qual seu nome?");
+const nome4 = prompt("Qual seu nome?");
 const nasc = prompt("Qual a data do seu nascimento?")
 const nascimento = parseInt(nasc);
 const ano = new Date().getFullYear();
 let idade = ano - nascimento;
-alert("Olá, " + nome + "! Sua idade é: " + idade);
+alert("Olá, " + nome2 + "! Sua idade é: " + idade);
 
 //exercício 3
-const nome = prompt("Qual seu nome?");
+const nome3 = prompt("Qual seu nome?");
 const pes = prompt("Qual o seu peso? Em KG");
 const peso = parseFloat(pes);
 const alt = prompt("Qual a sua altura? Em metros");

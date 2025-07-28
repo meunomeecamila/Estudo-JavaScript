@@ -15,8 +15,8 @@ for(let i=0; i<4; i++){
 
 //for of
 //Para cada elemento dentro do array, fazer a ação
-let cores = ["azul","verde","vermelho","amarelo"];
-for (let cor of cores){
+let cores2 = ["azul","verde","vermelho","amarelo"];
+for (let cor of cores2){
     console.log(cor);
 }
 
@@ -58,9 +58,9 @@ animais.forEach(function(animal){
 
 //map
 //transforma cada item do original em um novo item, criando um novo array
-let numeros = [1, 2, 3];
+let numeros3 = [1, 2, 3];
 
-let novoarray = numeros.map(function(num){
+let novoarray = numeros3.map(function(num){
     return num * 3;
 });
 
@@ -81,9 +81,9 @@ consoole.log(desconto); //imprime o array completo
 //Cria novo array com os itens que passam um teste
 //Ele filtra os itens conforme uma condição.
 
-let numeros = [1, 2, 3, 4, 5, 6];
+let numeros2 = [1, 2, 3, 4, 5, 6];
 
-let pares = numeros.filter(function(num) {
+let pares = numeros2.filter(function(num) {
   return num % 2 === 0; //retorna os números que quando divididos por 2, o resultado da 0
 });
 

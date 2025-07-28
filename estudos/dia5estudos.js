@@ -25,9 +25,9 @@ botao.addEventListener("click", function() {
 //Trabalhando com os inputs todos juntos:
 //Vamos supor que seu HTML esteja assim:
 //html
-<input type="text" id="nome">
+/*<input type="text" id="nome">
 <button id="enviar">Enviar</button>
-<p id="mensagem"></p>
+<p id="mensagem"></p> */
 //(isso significa que temos um texto com o id nome, um botão com o id enviar e um parágrafo com o id mensagem)
 
 //Agora, como transformamos isso em objetos JS e utilizamos?

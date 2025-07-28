@@ -48,11 +48,11 @@ let usuario = {
 
 
 //objeto em JSON:
-{
+/*{
   "nome": "Camila",
   "idade": 20,
   "curso": "Computação"
-}
+}*/
 
 //Para converter esse objeto em JSON, utilizamos:
 let textoJSON = JSON.stringify(usuario);
